@@ -54,12 +54,3 @@ const Main = () => {
 }
 
 export default Main;
-
-
-/**
- * GET https://youtube.googleapis.com/youtube/v3/search?q=alan%20walker&key=AIzaSyDsdFQS80QeFyw9kRI26xV2D-EhiT3LQEA HTTP/1.1
-
-Authorization: Bearer [YOUR_ACCESS_TOKEN]
-Accept: application/json
-
- */
