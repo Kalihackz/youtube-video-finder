@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/youtube-video-finder/static/css/main.2a806b59.css",
+    "main.js": "/youtube-video-finder/static/js/main.61873e66.js",
+    "static/js/787.0222622b.chunk.js": "/youtube-video-finder/static/js/787.0222622b.chunk.js",
+    "index.html": "/youtube-video-finder/index.html",
+    "main.2a806b59.css.map": "/youtube-video-finder/static/css/main.2a806b59.css.map",
+    "main.61873e66.js.map": "/youtube-video-finder/static/js/main.61873e66.js.map",
+    "787.0222622b.chunk.js.map": "/youtube-video-finder/static/js/787.0222622b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a806b59.css",
+    "static/js/main.61873e66.js"
+  ]
+}
