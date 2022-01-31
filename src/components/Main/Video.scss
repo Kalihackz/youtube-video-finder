@@ -1,0 +1,43 @@
+.link-url{
+    text-decoration: none;
+}
+.video{
+    margin: 0 10vw;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    &__thumbnail{
+        width: 35%;
+        margin: 10px;
+        border-radius: 20px;
+    }
+    &__details{
+        display: flex;
+        flex-direction: column;
+        color: #aaaaaa;
+        margin: 7px 0;
+    }
+    &__title{
+        font-size: 30px;
+        color: white;
+    }
+    &__meta{
+        display: flex;
+        margin: 10px 0;
+    }
+    &__seperator{
+        padding: 0 5px;
+    }
+    &__description{
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .video{
+        flex-direction: column;
+        &__thumbnail{
+            width: 100%;
+        }
+    }
+}

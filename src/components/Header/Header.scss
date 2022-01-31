@@ -1,0 +1,21 @@
+.nav{
+    background-color: rgb(51, 48, 48);
+    color: white;
+    &__container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    &__left{
+        display: flex;
+    }
+    &__menu{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    &__item{
+        padding: 10px 15px;
+        background-color: rgb(83, 83, 83);
+    }
+}

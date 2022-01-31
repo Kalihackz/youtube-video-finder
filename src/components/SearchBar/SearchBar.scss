@@ -1,0 +1,55 @@
+/* Main Container */
+.main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    &__left{
+        flex-grow: 3;
+    }
+    &__center{
+        flex-grow: 4;
+    }
+    &__right{
+        flex-grow: 3;
+    }
+}
+
+/* Search Bar */
+.search-bar{
+    margin: 45px auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: black;
+    width: 100%;
+}
+
+/* Input Fields */
+.input-text{
+    padding: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border: none;
+    color: white;
+    background-color: black;
+    width: 100%;
+    &:focus {
+        outline: none;
+        border: 1px solid cyan;
+    }
+}
+
+/* Buttons */
+.search-btn{
+    padding: 10px 20px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: rgb(221, 240, 221);
+    background-color: #524c4c;
+    &:hover {
+        outline: none;
+        box-shadow: 0px 0px 17px 2px rgb(115, 255, 0);
+    }
+}
